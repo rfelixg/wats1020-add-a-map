@@ -2,19 +2,56 @@
    Author's custom styles
    ========================================================================== */
 
-#map-container { height: 180px; }
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 0;
+	/*padding-bottom: 0;*/
+}
 
+.jumbotron {
+	/*margin-bottom: 0;*/
+}
 
+#map-container {
+	height: 180px;
+	/*height: 300px;*/
+}
 
+/* stats table -------------------------------------------------------------- */
+div #stats {
+	/*background: lightgreen;*/
+	/*display: inline;*/
+}
 
+div #stats h2 {
+	color: lightgreen;
+	/*text-align: center;*/
+}
 
+dl {
+	/*color: blue;*/
+  list-style-type: none;
+  margin: 2rem;
+  margin-left: 10rem;
+}
 
+dt {
+  line-height: 1.9;
+  font-weight: 550;
+  font-size: larger;
+}
 
+dd {
+	line-height: 1.9;
+	font-weight: 550;
+	font-size: larger;
+}
 
+dl dt {
+  display: inline;
+}
 
-
-
-
-
-
-
+/*img {
+	width: 100%;
+	height: auto;
+}*/
